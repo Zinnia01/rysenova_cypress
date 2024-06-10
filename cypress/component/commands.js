@@ -1,6 +1,6 @@
 Cypress.Commands.add('login', () => {
     
-    cy.visit('/');
+    cy.visit('https://fly.rn-stage-fe.kuiperz.dev/login');
 
     // Perform login actions here
     cy.get('#user_name').type('admin@fly.app');
